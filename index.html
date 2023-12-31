@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- UNICONS -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- Add favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+
+    <title>Portfolio | Gunjan</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- --------------- HEADER --------------- -->
+        <nav id="header">
+            <div class="nav-logo">
+                <!-- <p class="nav-name">Doe</p>
+                <span>.</span> -->
+                <img src="./assets/logo.png" alt="avatar" style="zoom: 0.3;">
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">About</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Projects</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-button">
+                <button class="btn download-button">Download CV <i class="uil uil-file-alt"></i></button>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+
+
+        <!-- -------------- MAIN ---------------- -->
+        <main class="wrapper">
+            <!-- -------------- FEATURED BOX ---------------- -->
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="featured-text-card">
+                        <span>Gunjan Aggarwal</span>
+                    </div>
+                    <div class="featured-name">
+                        <p>I'm <span class="typedText"></span></p>
+                    </div>
+                    <div class="featured-text-info">
+                        <p>Passionate UX/UI designer and seasoned frontend developer, dedicated 
+                            to crafting captivating, user-centric digital experiences.
+                        </p>
+                    </div>
+                    <div class="featured-text-btn">
+                        <button class="btn blue-btn">Hire Me</button>
+                        <button class="btn download-button">Download CV <i class="uil uil-file-alt"></i></button>
+                    </div>
+                    <div class="social_icons">
+                        <div class="icon"><a href="https://www.linkedin.com/in/gunjan-aggarwal-8480951a0/" target="_blank"><i class="uil uil-linkedin-alt"></i></a></div>
+                        <div class="icon"><a href="https://www.behance.net/gunjanaggarwal1" target="_blank"><i class="uil uil-behance-alt"></i></a></div>
+                        <div class="icon"><a href=""><i class="uil uil-github-alt"></i></a></div>
+                    </div>
+                </div>
+                <div class="featured-image">
+                    <div class="image">
+                        <img src="./assets/profilePic.svg" alt="avatar">
+                    </div>
+                </div>
+                <div class="scroll-icon-box">
+                    <a href="#about" class="scroll-btn">
+                        <i class="uil uil-mouse-alt"></i>
+                        <p>Scroll Down</p>
+                    </a>
+                </div>
+
+            </section>
+            <!-- -------------- ABOUT BOX ---------------- -->
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1>About Me</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="about-info">
+                            <h3>My introduction</h3>
+                            <p>As a UX/UI designer, I'm passionate about creating visually appealing and user-friendly interfaces. 
+                                What sets me apart is my proficiency in HTML, CSS, and JavaScript, which enables me to infuse 
+                                interactivity and responsiveness into my designs.</p>
+                            <div class="about-btn open-modal-button" data-modal-id="readMoreButtonModal">
+                                <button class="btn">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="skills-box" style="width: 20%;">
+                            <div class="skills-header">
+                                <h3>Frontend</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>Angular</span>
+                            </div>
+                        </div>
+                        <div class="skills-box" style="width: 60%;">
+                            <div class="skills-header">
+                                <h3>Designing</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>User Experience(UX) Design</span>
+                                <span>User Interface(UI) Design</span>
+                                <span>Wireframing and Prototyping</span>
+                                <span>Responsive Design</span>
+                                <span>Visual Design</span>
+                                <span>Information Architecture</span>
+                                <span>Usability Testing</span>
+                            </div>
+                        </div>
+                        <div class="skills-box" style="width: 40%;">
+                            <div class="skills-header">
+                                <h3>Tools</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>Figma</span>
+                                <span>Adobe Xd</span>
+                                <span>Adobe Photoshop</span>
+                                <span>Adobe Illustrator</span>
+                                <span>After Effect</span>
+                                <span>Webflow</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- -------------- PROJECT BOX ---------------- -->
+
+            <section class="section" id="projects">
+                <div class="top-header">
+                    <h1>Projects</h1>
+                </div>
+                <div class="project-container">
+                    <div class="project-box open-modal-button" data-modal-id="completedModal">
+                        <i class="uil uil-briefcase-alt"></i>
+                        <h3>UX/UI Designer</h3>
+                        <label>15+ Finished Projects</label>
+                    </div>
+                    <div class="project-box">
+                        <i class="uil uil-users-alt"></i>
+                        <h3>Frontend Developer</h3>
+                        <label>25+ Projects</label>
+                    </div>
+                    <div class="project-box open-modal-button" data-modal-id="experienceModal">
+                        <i class="uil uil-award"></i>
+                        <h3>Experience</h3>
+                        <label>2+ Years in the field</label>
+                    </div>
+                </div>
+            </section>
+
+            <!-- --------------ABOUT MODAL ------------------------>
+            <div id="readMoreButtonModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <div class="about-header">
+                        <h1>About Me</h1>
+                            <p>As a UX/UI designer, I'm passionate about creating visually appealing and user-friendly interfaces. 
+                                What sets me apart is my proficiency in HTML, CSS, and JavaScript, which enables me to infuse 
+                                interactivity and responsiveness into my designs.</p>
+                    </div>
+                    <div style="width: 100%;display: flex;">
+                        <div style="width: 70%;">
+                            <h3 style="text-align: left;">Education</h3>
+                            <div class="line">
+                                <div>
+                                    <div class="item">
+                                        <div class="icon">
+                                            <img src="./assets/tag.svg" alt="avatar">
+                                       </div>
+                                        <div class="edu-content">
+                                            <h4 >GRADUATION<span>CGPA-9.01</span></h4>
+                                            <p>Bachalor of Engineering CSE (UX/UI Intergrated) - <i>Batch 2017-Chitkara University</i></p>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="icon">
+                                            <img src="./assets/tag.svg" alt="avatar">
+                                       </div>
+                                        <div class="edu-content">
+                                            <h4 >HIGH SCHOOL<span>79.6%</span></h4>
+                                            <p>Govt Girls Sr Sec School,Nalagarh HP (Distict Solan) - <i>March 2017</i></p>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="icon">
+                                            <img src="./assets/tag.svg" alt="avatar">
+                                       </div>
+                                        <div class="edu-content">
+                                            <h4 >MATRICULATION<span>86.85%</span></h4>
+                                            <p>Shivalik Valley School Kirpalpur, Nalagarh - <i>March 2015</i></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="width: 30%;">
+                            <div class="activity">
+                                <i class="uil uil-bag-alt"></i>
+                                <p><span>UX Designer workshop -</span>Imagine XP at Pune.</p>
+                            </div>
+                            <div class="activity">
+                                <i class="uil uil-bag-alt"></i>
+                                <p><span>UX Designer Workshop with EY -</span>EY Company at Pune.</p>
+                            </div>
+                            <div class="activity">
+                                <i class="uil uil-award"></i>
+                                <p><span>Honored with a Matriculation laptop award -</span>HP Government.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+             <!-- --------------EXPERIENCE MODAL ------------------------>
+            <div id="experienceModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <div class="about-header">
+                        <h1>Experience</h1>
+                        <p>Over 2+ years of industry experience.</p>
+                    </div>
+                    <div class="line">
+                        <div>
+                            <div class="item">
+                                <div class="icon">
+                                     <img src="./assets/tag.svg" alt="avatar">
+                                </div>
+                                <div class="edu-content">
+                                    <p>09 August 2021 - Present</p>
+                                    <h4>Garageplug | Bangalore</h4>
+                                    <p>UX/UI Designer</p>
+                                    <ul class="exp-list">
+                                        <li>Gather and evaluate user requirements in collaboration with product managers and engineers . </li>
+                                        <li>Prepare and present rough drafts to internal teams and key stakeholders and take feedback and then Develop UI mockups and prototype that clearly illustrate how app function looks like.</li>
+                                        <li>Help developers in HTML , CSS part in improving the design.</li>
+                                        <li>Working on  sprint task that include some of the upcoming features.</li>
+                                        <li>Helps the marketing team in designing brochures, booklet ,creatives for social media.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="icon">
+                                    <img src="./assets/tag.svg" alt="avatar">
+                                </div>
+                                <div class="edu-content">
+                                    <p>26 October 2020 - 26 April 2021</p>
+                                    <h4>Prithvi.AI ( The Ikigai Lab) | Noida, Uttar Pradesh</h4>
+                                    <p>UX/UI Designer Intern</p>
+                                    <ul class="exp-list">
+                                        <li>My primary area of work is converting user stories to low fidelity and high fidelity mockups under the guidance of technical experts and product managers . Designing new products and researching before. </li>
+                                        <li>Designing Social Media Post , Brochures and Flyer for the organisation. </li>
+                                        <li>Designed for problems on Fascial palsy and Live project on Chatbot .</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="icon">
+                                     <img src="./assets/tag.svg" alt="avatar">
+                                </div>
+                                <div class="edu-content">
+                                    <p>20 May 2020 - 20 October 2020</p>
+                                    <h4>Clikzop Solution | Zirkpur</h4>
+                                    <p>UX/UI Designer Intern</p>
+                                    <ul class="exp-list">
+                                        <li>Collaborating with product management to implement innovative solution for the product visuals and improve the User Experience by making web pages or software interactions simple , fun , easy and effective.</li>
+                                        <li>Designed website for Kings of Subs(Zirakpur) , Gautam Khaitan an lawyer website , Goyal investment , Fashion Feed Web , Redesign Clikzop Website etc.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- --------------COMPLETED MODAL ------------------------>
+            <div id="completedModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2>Completed Projects</h2>
+                    <p>Details about completed projects...</p>
+                </div>
+            </div>
+
+
+            <!-- -------------- CONTACT BOX ---------------- -->
+
+            <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>Get in touch</h1>
+                    <span>Do you have a project in your mind, contact me here</span>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contact-info">
+                            <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+                            <p><i class="uil uil-envelope"></i> Email: gunjanaggarawal06@gmail.com</p>
+                            <p><i class="uil uil-phone"></i> +91 7807096568</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-control">
+                            <div class="form-inputs">
+                                <input type="text" id="name" class="input-field" placeholder="Name">
+                                <input type="text" id="email" class="input-field" placeholder="Email">
+                            </div>
+                            <div class="text-area">
+                                <textarea id="message" placeholder="Message"></textarea>
+                            </div>
+                            <div class="form-button">
+                                <button class="btn" onclick="sendEmail()">Send <i class="uil uil-message"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+
+        <!-- --------------- FOOTER --------------- -->
+        <footer>
+            <div class="top-footer">
+                <p>Gunjan Aggarwal .</p>
+            </div>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer_menu_list">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-social-icons">
+                <div class="icon"><a href="https://www.linkedin.com/in/gunjan-aggarwal-8480951a0/" target="_blank"><i class="uil uil-linkedin-alt"></i></a></div>
+                <div class="icon"><a href="https://www.behance.net/gunjanaggarwal1" target="_blank"><i class="uil uil-behance-alt"></i></a></div>
+                <div class="icon"><a href=""><i class="uil uil-github-alt"></i></a></div>
+            </div>
+            <div class="bottom-footer">
+                <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Gunjan Aggarwal</a> - All rights reserved
+                </p>
+            </div>
+        </footer>
+
+    </div>
+
+
+
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="./script.js"></script>
+
+
+</body>
+
+</html>
